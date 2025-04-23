@@ -214,6 +214,10 @@ z-index: 50;
 
 }
 
+.porq-campos-item hr{
+    display: none;
+}
+
 /*FAQS*/
 .division-wave{
     width: 100%;
@@ -452,6 +456,28 @@ display: inline-block;
 
 @media(max-width: 576px)
 {
+    .porq-campos-item{
+        gap: 15px;
+    }
 
+    .porq-campos-item hr{
+        width: 100%;
+        display: block;
+
+    }
+
+    .footer-content{
+        grid-template-columns: 1fr;
+
+    }
+
+    .porq-item i{
+        font-size: 24px;
+    }
+
+    .btn-header{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     
 }
