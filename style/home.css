@@ -121,9 +121,10 @@ header {
     border-radius: 50px;
 
   }
+
   .principal-image{
-position: relative;
-z-index: 50;
+    position: relative;
+    z-index: 50;
   }
 
   .principal-image::after, .principal-image::before{

@@ -1,0 +1,132 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --primary: #6b2aee;
+    --secondary: #02e7d9;
+    --light-grey: #e5e5e5;
+    --dark-grey: #707070;
+    font-family: "Poppins", sans-serif;
+  }
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*NAVBAR*/
+
+header {
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: 1px 0 15px rgba(98, 98, 98, 0.294);
+  }
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-header{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.btn-contained{
+    background-color: var(--primary);
+    padding: 10px 35px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: 400;
+
+}
+
+.btn-login{
+    background-color: #fafafa;
+    padding: 10px 35px;
+    color: var(--primary);
+    text-decoration: none;
+    border-radius: 25px;
+
+}
+
+/*Login Section*/
+.login-header{
+    margin-top: 200px;
+}
+
+.login-header h1{
+    color: var(--primary);
+    font-weight: 600;
+    text-align: center;
+}
+.campos-login{
+    
+}
+
+
+
+
+/*FOOTER*/
+
+footer{
+    background-color: var(--primary);
+    padding: 50px;
+
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 50px;
+
+}
+
+.footer-item {
+   color: #fff;
+   font-size: 1rem;
+   font-weight: 300;
+}
+
+.footer-item ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-item ul a{
+color: #fff;
+margin: 5px 0;
+display: inline-block;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-media i{
+    color: var(--light-grey);
+    font-size: 30px;
+}
+.social-media a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #581ECD;
+    display: grid;
+    place-items: center;
+}
+
+.social-media a:hover{
+    transform: scale(1.07);
+    transition: .4s;
+}
